@@ -28,7 +28,7 @@ src_install() {
 	newinitd "${FILESDIR}/init" logstash
 	newconfd "${FILESDIR}/conf" logstash
 
-	fperms 0775 /opt/logstash/bin/{logstash,logstash-test,plugin,logstash-web,logstash.lib.sh}
+	fperms 0775 /opt/${PN}/bin/{logstash,logstash-test,plugin,logstash-web,logstash.lib.sh}
 }
 
 pkg_postinst() {
