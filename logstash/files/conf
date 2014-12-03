@@ -1,0 +1,17 @@
+# Logstash Configuration 
+
+## insert JAVAOPTS
+## i.e. JAVAOPTS="-Djava.net.preferIPv4Stack=true"
+JAVAOPTS=""
+
+## Directory where logstash.jar is installed (defaults to /opt/logstash)
+#LOGSTASH_HOME=""
+
+## Logstash config file (defaults to "/etc/logstash/conf.d/logstash.conf")
+#LOGSTASH_CONF=""
+
+## Write logs for debugging (default "false")
+#LOGSTASH_WRITE_LOG="true"
+
+## Path to write logs (default "/var/log")
+#LOGSTASH_LOG_PATH=""
